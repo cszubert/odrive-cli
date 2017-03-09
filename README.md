@@ -3,7 +3,7 @@ Runs odrive Sync Agent CLI in an official python based docker container.
 ## Usage
 ### Start odrive container
 ```
-docker run --rm --name odrive-cli -v $PWD:/odrive odrive-cli
+docker run --rm --name odrive-cli -v $PWD:/odrive cszubert/odrive-cli
 ```
 Next enter the container from anothe shell
 ```
